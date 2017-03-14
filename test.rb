@@ -21,6 +21,6 @@ class TestAnimalsInitialized < Minitest::Test
 
   def test_responds_to_class_AnimalsInitialized_returns_cat_method
     animal = AnimalsInitialized.new("Cat", "Nacho", "Meows")
-    assert_equal("My Cat, Nacho Meows!", animal.my_dog)
+    assert_equal("My Cat, Nacho Meows!", animal.my_cat)
   end
 end
