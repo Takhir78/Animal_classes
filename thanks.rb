@@ -11,7 +11,7 @@ end
 class LanguagesInitialized
   def initialize(language, word)
     @language = language
-    @da = word
+    @word = word
   end
 
   def my_english
